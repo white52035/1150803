@@ -538,7 +538,7 @@ def render_section(section_name, db):
 # 🚀 應用程式主邏輯 (Main)
 # ==========================================
 def main():
-    st.set_page_config(page_title="阿美語中高級認證 - 海洋風學習平台", page_icon="🌊", layout="centered", initial_sidebar_state="collapsed")
+    st.set_page_config(page_title="阿美語中高級認證 - 海洋風學習平台", page_icon="🌊", layout="wide", initial_sidebar_state="collapsed")
 
     # 🌊 太平洋湛藍海洋風格 (Ocean Breeze Theme) CSS
     st.markdown("""
